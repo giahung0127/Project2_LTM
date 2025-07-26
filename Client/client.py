@@ -232,7 +232,7 @@ class FileDownloader:
                 files_to_download = self.read_input_file()
                 for filename in files_to_download:
                     self.download_file(filename)
-                time.sleep(2)  # Kiểm tra lại mỗi 2s
+                time.sleep(5)  # Kiểm tra lại mỗi 5s
 
         except KeyboardInterrupt:
             print("\nExiting downloader...")
